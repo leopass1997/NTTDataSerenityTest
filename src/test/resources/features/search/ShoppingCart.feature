@@ -1,7 +1,7 @@
 #language: es
 #Automatizador: Leonardo
 #Funcional: NTTData
-#Comando Ejecutar: mvn clean verify -Dcucumber.filter.tags="@FlujoComprasProductos"
+#Comando Ejecutar: mvn clean install
 
 @FeatureCompletoShoppingCart
 Característica: Compra de Productos en Swag Labs

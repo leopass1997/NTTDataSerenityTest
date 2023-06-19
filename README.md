@@ -12,6 +12,6 @@
     - mvn clean install -DskipTests (Hará un install sobre el proyecto sin ejecutar los tests y verificará que no exista errores y comenzará a descargar las dependencias y recursos que el proyecto utilizará)
 
 3. Instrucciones para ejecutar los test
-    - Al tratarse de un proceso largo de implementacio, desarrollo y ejecucion, adicionalmente de los entegables solicitado se envia por mail el doc "documentacion_E2E_Leonardo_Paez". Este contiene el paso a paso
-    de la implementacion, desarrollo y ejecucion. Adicionalmente en la parte final del documento se realizan conclusiones sobre el laboratorio realizado.
-    - El reporte de serenity generado (serenity-report) igualmente se enviara como parte de los entregables por mail.
+    - Ingresar al feature ubicado en la siguiente ruta NTTDataSerenityTest\src\test\resources\features\search\ShoppingCart.feature
+    - Abrir una terminal dentro del IDE y seleccionar tipo Git Bash
+    - Ejecutar el comento mvn clean install y automaticamente comenzara a realizar la ejecucion del test automatizado
